@@ -31,7 +31,7 @@ const WalineComponent = (props) => {
         reaction: false,
         dark: 'html.dark',
         emoji: [
-          'https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan/',
+          'https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan/'
 
         ]
       })
