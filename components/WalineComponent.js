@@ -28,12 +28,11 @@ const WalineComponent = (props) => {
         el: containerRef.current,
         serverURL: BLOG.COMMENT_WALINE_SERVER_URL,
         lang: BLOG.lang,
-        reaction: true,
+        reaction: false,
         dark: 'html.dark',
         emoji: [
-          '//npm.elemecdn.com/@waline/emojis@1.1.0/tieba',
-          '//npm.elemecdn.com/@waline/emojis@1.1.0/weibo',
-          '//npm.elemecdn.com/@waline/emojis@1.1.0/bilibili'
+          'https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan/',
+
         ]
       })
     }
